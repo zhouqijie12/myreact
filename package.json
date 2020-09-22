@@ -17,14 +17,14 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "lint": "react-scripts lint-staged"
+        "lint": "react-scripts lint"
     },
     "eslintConfig": {
         "extends": "react-app"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "react-scripts lint"
+            "pre-commit": "lint-staged"
         }
     },
     "lint-staged": {
