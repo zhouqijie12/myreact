@@ -28,7 +28,7 @@
         }
     },
     "lint-staged": {
-        "**/*.js": "eslint --ext .js"
+        "src/**/*.js": "eslint --ext .js"
     },
     "browserslist": [
         ">0.2%",
