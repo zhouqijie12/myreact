@@ -24,11 +24,11 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "npm run lint"
+            "pre-commit": "react-scripts lint"
         }
     },
     "lint-staged": {
-        "**/*.js": "eslint --ext .js",
+        "**/*.js": "eslint --ext .js"
     },
     "browserslist": [
         ">0.2%",
