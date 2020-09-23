@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import RouterComponent from './react-router'
 console.log('dfadsfdsa');
 
-
 function combineReducers(reducers) {
     const reducerKeys = Object.keys(reducers)
     const finalReducers = {}
