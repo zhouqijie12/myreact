@@ -1,20 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import RouterComponent from './react-router'
+console.log('dfadsfdsa');
 
-
-function Example() {
-    const [num, setNum] = useState(1);
-    useEffect(() => {
-        console.log('eeeeeuseEffectuseEffecte')
-    })
-    return (
-        <div>
-            <p>{num}</p>
-            <button onClick={() => setNum(num + 1)}>加1</button>
-        </div>
-    )
-}
 
 function combineReducers(reducers) {
     const reducerKeys = Object.keys(reducers)
