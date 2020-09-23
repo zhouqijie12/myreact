@@ -145,6 +145,7 @@ function add(a, b, c, d) {
     return a + b + c + d;
 };
 
+console.log("dasaa");
 function createCurry(func, ...args) {
     let arity = func.length;
     var args = args || [];
